@@ -4,8 +4,6 @@ const express = require('express');
 // Created Require Files..
 const controller = require('../controller/news');
 
-const checkAuth = require('../middileware/check-user-auth');
-const checkAdminAuth = require('../middileware/check-admin-auth');
 const router = express.Router();
 
 /**

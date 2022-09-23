@@ -2,9 +2,9 @@ const cors = require('cors');
 
 let whitelist;
 if (process.env.PRODUCTION_BUILD === 'true') {
-    whitelist = ['http://localhost:4200', 'http://localhost:8100', 'https://emedilife.com.bd', 'https://emedilife.com'];
+    whitelist = ['http://localhost:4200', 'http://localhost:8100'];
 } else {
-    whitelist = ['http://localhost:4200', 'http://localhost:8100', 'https://emedilife.com.bd', 'https://emedilife.com'];
+    whitelist = ['http://localhost:4200', 'http://localhost:8100'];
 }
 
 const corsOptions = {

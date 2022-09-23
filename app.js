@@ -5,7 +5,7 @@
  * DEVELOP BY MD. AL MAHMUD IMRAN
  */
 const express = require("express");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const crossUnblocker = require("./middileware/cros-unblocker");
 const path = require("path");
 const dotenv = require("dotenv").config();
