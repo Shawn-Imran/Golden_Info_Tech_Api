@@ -40,7 +40,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
  */
 app.get("/", (req, res) => {
   res.send(
-    '<div style="width: 100%; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center"><h1 style="color: blueviolet; text-transform: uppercase">Secure NodeJS APP RUNNING...</h1><p style="color: lightcoral">Powered by SOFTLAB IT TEAM</p></div>'
+    '<div style="width: 100%; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center"><h1 style="color: blueviolet; text-transform: uppercase">Secure NodeJS APP RUNNING...</h1><p style="color: lightcoral">Developed By Imran</p></div>'
   );
 });
 
