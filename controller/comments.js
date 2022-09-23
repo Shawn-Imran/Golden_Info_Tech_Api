@@ -4,8 +4,11 @@ const News = require('../models/comments');
 
 exports.getAllComments= async (req, res, next) => {
     try {
-        const comments = await comments.find();
-        const docCount = await comments.countDocuments();
+
+        const comments = require('./../comments.json');
+        let docCount =comments.length;
+       
+        console.log(comments);
 
         res.status(200).json({
             success: true,

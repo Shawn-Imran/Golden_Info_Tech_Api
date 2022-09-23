@@ -8,7 +8,7 @@ const controller = require('../controller/comments');
 const router = express.Router();
 
 /**
- * http://localhost:3000/api/admin/comments
+ * http://localhost:7100/api/comments
  */
 
 
